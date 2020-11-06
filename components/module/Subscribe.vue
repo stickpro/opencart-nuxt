@@ -1,0 +1,30 @@
+<template>
+  <section class="uk-section uk-section-primary uk-section-small uk-light">
+    <div class="uk-container">
+      <div class="uk-text-center">
+        <div class="uk-h2 uk-margin-remove">Subscribe for updates</div>
+        <div>Be aware of new products and special offers.</div>
+      </div>
+      <div class="uk-margin">
+        <form>
+          <vk-grid class="uk-grid-small uk-flex-center">
+            <div class="uk-width-1-1 uk-width-medium@s">
+              <div class="uk-inline uk-width-1-1">
+                <vk-icon class="uk-form-icon" icon="mail"></vk-icon>
+                <input
+                  class="uk-input"
+                  type="email"
+                  placeholder="Your email"
+                  required
+                />
+              </div>
+            </div>
+            <div>
+              <button class="uk-button uk-button-primary">subscribe</button>
+            </div>
+          </vk-grid>
+        </form>
+      </div>
+    </div>
+  </section>
+</template>
