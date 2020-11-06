@@ -1,13 +1,10 @@
 <template>
-  <section class="uk-section uk-section-small">
-    <div class="uk-container">
-      <div class="uk-grid-medium uk-child-width-1-1" uk-grid>
-        <div class="uk-text-center">
-          <vk-breadcrumb> </vk-breadcrumb>
-        </div>
-      </div>
-    </div>
-  </section>
+  <vk-breadcrumb class="uk-flex-center uk-margin-remove">
+    <vk-breadcrumb-item href="#">Item</vk-breadcrumb-item>
+    <vk-breadcrumb-item href="#">Item</vk-breadcrumb-item>
+    <vk-breadcrumb-item disabled>Disabled</vk-breadcrumb-item>
+    <vk-breadcrumb-item>Active</vk-breadcrumb-item>
+  </vk-breadcrumb>
 </template>
 
 <script>

@@ -7,7 +7,6 @@
     <BlogModule />
     <NewsModule />
     <Subscribe />
-    <Advantage />
   </main>
 </template>
 
@@ -18,7 +17,6 @@ import ManufacturerSlider from '@/components/manufacturer/HomeSlider'
 import BlogModule from '@/components/blog/HomeModule'
 import NewsModule from '@/components/news/NewsModule'
 import Subscribe from '@/components/module/Subscribe'
-import Advantage from '@/components/module/Advantage'
 import Trending from '@/components/products/Trending'
 export default {
   components: {
